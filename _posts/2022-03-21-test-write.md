@@ -38,10 +38,6 @@ sidebar: []
 - 관리 : LDAP(Lightweight Directory Access Protocol), 쿠키(Cookie)<br>
 - 암호화 통신 : SSL(Secure Socket Layer), IPSec(IP Security Protocol) <br>
 
-<h3>
-4. SSO의 구축 유형
-</h3>
-
 <h4>
 1) 인증 대행 모델(Delegation)
 </h4>
