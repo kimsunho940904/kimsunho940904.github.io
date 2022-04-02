@@ -1,10 +1,15 @@
 ---
-layout: post title: 좋은 객체 지향 설계의 5가지 원칙(SOLID)
+layout: post 
+title: 좋은 객체 지향 설계의 5가지 원칙(SOLID)
 subtitle: 좋은 객체 지향 설계의 5가지 원칙(SOLID)
-author: 김선호 categories: 스프링 banner:
+author: 김선호
+categories: 스프링
+banner:
 video: https://vjs.zencdn.net/v/oceans.mp4
-loop: true volume: 0.8 start_at: 8.5 image: https://bit.ly/3xTmdUP
-opacity: 0.618 background: "#000"
+loop: true volume: 0.8 start_at: 8.5 
+image: https://bit.ly/3xTmdUP
+opacity: 0.618
+background: "#000"
 height: "100vh"
 min_height: "38vh"
 heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
