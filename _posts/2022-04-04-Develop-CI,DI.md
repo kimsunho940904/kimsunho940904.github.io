@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CI와DI
+title: CI와 DI란
 subtitle: Connectiong Information and Duplication Information
 author: 김선호
 categories: Develop
