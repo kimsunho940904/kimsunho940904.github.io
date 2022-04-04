@@ -3,7 +3,7 @@ layout: post
 title: HTTP로 요청 했지만, HTTPS로 돌아오는 현상
 subtitle: http -> https
 author: 김선호
-categories: 네트워크
+categories: HTTP
 banner:
 video: https://vjs.zencdn.net/v/oceans.mp4
 loop: true
@@ -16,7 +16,7 @@ height: "100vh"
 min_height: "38vh"
 heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
 subheading_style: "color: gold"
-tags: 네트워크
+tags: HTTP
 sidebar: []
 ---
 
