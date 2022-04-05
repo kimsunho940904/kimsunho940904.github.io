@@ -32,6 +32,7 @@ sidebar: []
 
 ## # 예시
 아래의 web.xml에서 URL 경로인 /welcome을 서블릿 클래스 servlets.Servlet에 매핑한다.
+
 ````
 <web-app>
 <!-- aliases 설정 -->
@@ -54,6 +55,7 @@ sidebar: []
 - Session의 대한 유효시간
 - welcome file list
 - 오류  핸들러
+
 ````
   <error-page>
   <error-code>500</error-code>
@@ -70,6 +72,7 @@ sidebar: []
 - Spring 컨테이러 생성 (컨트롤러의 라이프사이클 관리)
 - 클라이언트의 요청을 처음으로 받는 클래스
 - 클라이언트의 요청을 가로채서 컨트롤러에 보내는 역할
+
 ````
 <servlet>
 <servlet-name>addServlet</servlet-name>
