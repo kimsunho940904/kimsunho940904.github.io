@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: log
+title: 기록보관소
 email: hkkbc123@gmail.com
 author: 김선호
 
