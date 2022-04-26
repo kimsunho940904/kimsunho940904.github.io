@@ -48,9 +48,12 @@ sidebar: []
 ## # 협상과 우선순위3
 - 구체적인 것을 기준으로 미디어 타입을 맞춘다.
 - Accept : text/*;q=0.3, text/html;q=0.7, text/html;level=1, text/html;level=2;q=0.4, */ *;q=0.5
-- Media Type : text/html;level=1 / Quality : 1
-- Media Type : text/html / Quality : 0.7
-- Media Type : text/plain / Quality : 0.3
-- Media Type : image/jpeg / Quality : 0.5
-- Media Type : text/html;level=2 / Quality : 0.4
-- Media Type : text/html;level=3 / Quality : 0.7
+
+| Media Type | Quality |
+| :----------| : ------|
+|text/html;level=1 | 1 |
+| text/html |  0.7 |
+| text/plain | 0.3 |
+| image/jpeg | 0.5 |
+| text/html;level=2 | 0.4 |
+| text/html;level=3 | 0.7 |
