@@ -50,4 +50,3 @@ sidebar: []
 - 503 (Service Unavailable) : 서비스가 언제까지 불능인지 알려줄 수 있음
 - Retry-After : Fri, 31 Dec 1999 23:59:59 GMT (날짜 표기)
 - Retry-After : 120 (초단위 표기)
-- 
