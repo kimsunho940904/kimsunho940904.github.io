@@ -33,13 +33,24 @@ sidebar: []
   - 이미지, 정적 텍스트 문서
   - 조회는 GET 사용
   - 정적 데이터는 일반적으로 쿼리 파라미터 없이 리소스 경로로 단순하게 조회 가능
-    ![image](https://user-images.githubusercontent.com/63573287/163069841-45706626-33f1-4706-9ee9-499c381c79c3.png)
+<hr>
+  
+![image](https://user-images.githubusercontent.com/63573287/163069841-45706626-33f1-4706-9ee9-499c381c79c3.png)
+
+<hr>
+
 - 동적 데이터 조회
   - 주로 검색, 게시판 목록에서 정렬 필터(검색어)
   - 조회 조건을 줄여주는 필터, 조회 결과를 정렬하는 정렬 조건에 주로 사용
   - 조회는 GET 사용
   - GET은 쿼리 파라미터 사용해서 데이터를 전달
-    ![image](https://user-images.githubusercontent.com/63573287/163069938-341f41fc-7ba5-4a75-967d-4b9e56d0b309.png)
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/163069938-341f41fc-7ba5-4a75-967d-4b9e56d0b309.png)
+
+<hr>
+
 - HTML Form을 통한 데이터 전송
   - 회원 가입, 상품 주문, 데이터 변경
   - Content-Type : application/x-www-form-urlencoded 사용
@@ -51,8 +62,17 @@ sidebar: []
     - 파일 업로드 같은 바이너리 데이터 전송시 사용
     - 다른 종류의 여러 파일과 폼의 내용 함께 전송 가능
   - HTML Form 전송은 GET, POST만 지원
-      ![image](https://user-images.githubusercontent.com/63573287/163070121-060581eb-5084-4ba6-81c0-ed03c6c482e1.png)
-      ![image](https://user-images.githubusercontent.com/63573287/163070414-47e335d4-dd32-4e64-8de9-7973e1bece35.png)
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/163070121-060581eb-5084-4ba6-81c0-ed03c6c482e1.png)
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/163070414-47e335d4-dd32-4e64-8de9-7973e1bece35.png)
+
+<hr>
+
 - HTTP API를 통한 데이터 전송
   - 회원 가입, 상품 주문, 데이터 변경
   - 서버 to 서버(백엔드 시스템 통신), 앱 클라이언트(아이폰, 안드로이드)
@@ -63,5 +83,9 @@ sidebar: []
   - GET : 조회, 쿼리 파라미터로 데이터 전달
   - Content-Type : application/json을 주로 사용(사실상 표준)
     - TEXT, XML, JSON 등
-        ![image](https://user-images.githubusercontent.com/63573287/163070821-d06cf208-981f-4dbc-b6ea-2aea8a8570e9.png)
-  
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/163070821-d06cf208-981f-4dbc-b6ea-2aea8a8570e9.png)
+
+<hr>
