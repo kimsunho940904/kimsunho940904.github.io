@@ -34,3 +34,24 @@ sidebar: []
 1. 웹브라우저가 post로 로그인(user=홍길동) 이라고 보내면,
 2. 서버는 Set-Cookie : user=홍길동 으로 쿠키에 말아버림.
 3. 웹 브라우저 내부에 쿠키저장소에 user=홍길동을 저장
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/165646661-cd309afb-0d53-4c20-82c0-abbeffc379a1.png)
+
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/63573287/165646714-2a9c41bb-9046-4f9d-8f39-a42419650822.png)
+
+## # 쿠키
+- 예) set-cookie: sessionId=acdb1234; expires=Sat,26-Dec-2020 00:00:00 GMT; path=/; domain=.google.com;Secure
+- 사용처
+  - 사용자 로그인 세션 관리
+  - 광고 정보 트래킹
+- 쿠키 정보는 항상 서버에 전송됨
+  - 네트워크 트래픽 추가 유발
+  - 최소한의 정보만 사용(세션 id, 인증 토큰)
+  - 서버에 전송하지 않고, 웹 브라우저 내부에 데이터를 저장하고 싶으면 웹 스토리지 (localStorage, sessionStorage) 참고
+- 주의
+  - 보안에 민감한 데이터는 저장하면 안된다.(주민번호, 신용카드 번호 등등)
