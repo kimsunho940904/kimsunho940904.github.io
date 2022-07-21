@@ -1,5 +1,10 @@
 ---
-layout: post title: 웹 서버, 웹 애플리케이션 서버 subtitle: Web Server, Web Application Server author: 김선호 categories: HTTP banner:
+layout: post
+title: 웹 서버, 웹 애플리케이션 서버
+subtitle: Web Server, Web Application Server
+author: 김선호
+categories: HTTP 
+banner:
 video: https://vjs.zencdn.net/v/oceans.mp4
 loop: true volume: 0.8 start_at: 8.5 image: https://bit.ly/3xTmdUP
 opacity: 0.618 background: "#000"
